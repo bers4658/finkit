@@ -29,7 +29,6 @@ body {
 }
 
 .header-substrate-content{
-    border: 1px solid;
     width: 100%;
     height: 647px;
     
@@ -64,14 +63,12 @@ body {
 }
 
 .header-wrap{
-    border: 1px solid;
-    width: 875px;
+    width: 1000px;
     height: 647px; 
     margin: auto;
 }
 
 .fin-kit-wrap{
-    border: 1px solid;
     width: 360px;
     height: 500px;
 
@@ -127,9 +124,72 @@ body {
 
 .img-wrap{
     position: relative;
-    left: 500px;
+    left: 700px;
+    top: -274px;
+    
 }
 
 .img-wrap img {
     position: absolute;
   }
+
+.elipse_1{
+    position: absolute;
+    height: 542px;
+    width: 542px;
+    background-color: #CBECFF;
+    border: 5px solid;
+    border-radius: 500px;
+    color: #E2F3FF;
+    top: -20px;
+    left: -162px;
+}
+
+.elipse_2{
+    position: absolute;
+    height: 486px;
+    width: 486px;
+    background-color: #CBECFF;
+    border: 50px solid;
+    border-radius: 500px;
+    opacity: 0.6;
+    color: #E2F3FF;
+    top: -53px;
+    left: -184px;
+}
+
+.rectangle_wrap{
+    height: 100px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.rectangle_content{
+    background-color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    height: 118px;
+    width: 241px;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-right: 20px;
+    text-align: left;
+    color: #29374E;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.rectangle_text{
+    display: inline-block;
+    border: 1px solid;
+    width: 140px;
+    margin-left: 20px;
+    
+}
+
+.rectangle_icon{
+    display: inline-block;
+    
+}
