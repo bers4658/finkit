@@ -1,40 +1,16 @@
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-body {
-    
-    width: 100%;
-}
-
-.header-substrate{
+.header_substrate{
     background-color: #CBECFF;
     height: 678px;
     padding-top: 30px;
-    padding-left: 60px;
     padding-right: 60px;
 }
 
-.header-substrate-content{
+.header_substrate_content{
     width: 100%;
     height: 647px;
-    
 }
 
-.ru-en{
+.ru_en{
     width: 80px;
     height: 50px;
     margin-left: auto;
@@ -52,9 +28,6 @@ body {
     text-align: center;
     display: inline-block;
     line-height: 22px;
-    
-    
-
 }
 
 .en{
@@ -62,23 +35,21 @@ body {
     margin-left: 15px;
 }
 
-.header-wrap{
+.header_wrap{
     width: 1000px;
     height: 647px; 
     margin: auto;
 }
 
-.fin-kit-wrap{
+.fin_kit_wrap{
     width: 360px;
     height: 500px;
-
 }
 
-.fin-kit-contentn{
+.fin_kit_contentn{
     width: 300px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    
 }
 
 .fin{
@@ -97,15 +68,14 @@ body {
     text-align: center;
 }
 
-.wrap-content{
-    
+.wrap_content{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 22px;
     margin-top: 14px;
 }
 
-.btn-demo{
+.btn_demo{
     margin-top: 36px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -118,18 +88,15 @@ body {
     text-align: center;
     padding-top: 20px;
     cursor: pointer;
-    
-    
 }
 
-.img-wrap{
+.img_wrap{
     position: relative;
     left: 700px;
     top: -274px;
-    
 }
 
-.img-wrap img {
+.img_wrap img {
     position: absolute;
   }
 
@@ -187,14 +154,12 @@ body {
     width: 160px;
     margin-left: 20px;
     vertical-align: top;
-    
 }
 
 .rectangle_icon{
     display: inline-block;
     vertical-align: top;
     margin-left: 15px;
-    
 }
 
 .title_text{
@@ -211,7 +176,6 @@ body {
 .blocks_content{
     width: 1100px;
     margin: auto;
-    
 }
 
 .block_content{
@@ -225,9 +189,6 @@ body {
     padding-top: 37px;
     padding-left: 20px;
     padding-right: 33px;
-
-   
-    
 }
 
 .block_content_text{
@@ -246,7 +207,6 @@ body {
     font-size: 14px;
     line-height: 140%;
     margin-top: 7px;
-    
 }
 
 .block_content img {
@@ -260,15 +220,14 @@ body {
     width: 1100px;
     margin: auto;
     margin-top: 120px;
-    
-
 }
 
 .footer_content_left{
     height: 100px;
-    width: 53%;
+    width: 562px;
     display: inline-block;
     vertical-align: top;
+    margin-left: 20px;
 }
 
 .footer_content_text{
@@ -286,7 +245,6 @@ body {
     color: #29374E;
     line-height: 140%;
     width: 400px;
-    
 }
 
 .footer_content_btn{
@@ -306,7 +264,7 @@ body {
 
 .footer_content_right{
     height: 100px;
-    width: 44%;
+    width: 500px;
     display: inline-block;
 }
 
@@ -332,3 +290,12 @@ body {
     padding-top: 30px;
 }
 
+@media(max-width: 1100px ){
+    .header_substrate{
+        height: 963px;
+    }
+
+    
+    
+    
+}
